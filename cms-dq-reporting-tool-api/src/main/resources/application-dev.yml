@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://db-mysql-cmsdq-reportingtool-use1-dev.crnseukk50lz.us-east-1.rds.amazonaws.com:3306/cmsdq_reportingtool?stringtype=unspecified
+    username: cmsdq_reportingtool_a
+    password: evDCnMEATMsj7eWIQ1LVG7O1mQ8RptrF

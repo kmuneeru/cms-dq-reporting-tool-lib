@@ -1,0 +1,357 @@
+{
+  "selectionCriteria": {
+    "filters": {
+      "server": "http://mongo-arc-v2.mtvnservices.com",
+      "site": "nick.com",
+      "stage": "live",
+      "reportType": {
+        "applyDP": false,
+        "includeDraft": true
+      },
+      "contentType": "Standard:Series",
+      "lastDateModified": "1721425245225",
+      "associatedTo": {
+        "elements": ["28f490fb-5b64-4e9d-bc0a-a31753c370d1"],
+        "relationType": "or"
+      },
+      "limit": 1
+    },
+    "availabilityFilter": {
+      "regions": ["AZ"],
+      "platforms": [
+        "f2a22dfb-63d5-4805-9209-52f1b7869e8e",
+        "9065777a-a842-48ec-a676-9fb16de21c9c",
+        "e5b7c6e5-3cc7-4e04-9587-3402da87482f"
+      ],
+      "orgChannels": ["9fb61f7b-be14-46a1-8d1c-c6cec3cea812"],
+      "orgSites": [
+        "15b5f64e-01f3-4905-a105-b001d82f1a02",
+        "4e726ab4-37f2-479c-96e7-ce9e49cf0aa1",
+        "3a1f8af3-6b0a-4774-ac33-28009e493628"
+      ],
+      "orgPartners": [
+        "498d8c97-5353-47ec-b866-197be4807553",
+        "eb550fb3-fe43-4269-9ed9-051a2a8aec3d"
+      ]
+    },
+    "selectedFields": {
+      "name": "Standard:Series",
+      "fields": [
+        {
+          "name": "Country",
+          "checked": true
+        },
+        {
+          "name": "SEOTitle",
+          "checked": true
+        },
+        {
+          "name": "mtvi:contentType",
+          "checked": false
+        },
+        {
+          "name": "mtvi:created",
+          "checked": false
+        },
+        {
+          "name": "mtvi:id",
+          "checked": true
+        },
+        {
+          "name": "mtvi:lastModified",
+          "checked": false
+        },
+        {
+          "name": "mtvi:namespace",
+          "checked": true
+        },
+        {
+          "name": "mtvi:publishedTo",
+          "checked": false
+        },
+        {
+          "name": "mtvi:secondaryNamespaces",
+          "checked": false
+        },
+        {
+          "name": "mtvi:shortId",
+          "checked": true
+        },
+        {
+          "name": "mtvi:updated",
+          "checked": false
+        },
+        {
+          "name": "mtvi:urlKey",
+          "checked": false
+        },
+        {
+          "name": "Title",
+          "checked": true
+        },
+        {
+          "name": "Description",
+          "checked": false
+        },
+        {
+          "name": "ShortTitle",
+          "checked": true
+        }
+      ],
+      "references": [
+        {
+          "name": "SysRefs",
+          "fields": [
+            {
+              "name": "SysName",
+              "checked": true
+            },
+            {
+              "name": "mtvi:created",
+              "checked": false
+            },
+            {
+              "name": "mtvi:id",
+              "checked": false
+            },
+            {
+              "name": "mtvi:lastModified",
+              "checked": false
+            },
+            {
+              "name": "mtvi:namespace",
+              "checked": false
+            },
+            {
+              "name": "mtvi:publishedTo",
+              "checked": false
+            },
+            {
+              "name": "mtvi:secondaryNamespaces",
+              "checked": false
+            },
+            {
+              "name": "mtvi:shortId",
+              "checked": false
+            },
+            {
+              "name": "mtvi:updated",
+              "checked": false
+            },
+            {
+              "name": "mtvi:urlKey",
+              "checked": false
+            },
+            {
+              "name": "SysDescription",
+              "checked": true
+            },
+            {
+              "name": "URI",
+              "checked": true
+            }
+          ],
+          "references": [],
+          "checked": false,
+          "expanded": false,
+          "contentType": "Standard:SysRefs"
+        },
+        {
+          "name": "DistPolicies",
+          "fields": [
+            {
+              "name": "DeleteReason",
+              "checked": false
+            },
+            {
+              "name": "Description",
+              "checked": false
+            },
+            {
+              "name": "ModificationReason",
+              "checked": false
+            },
+            {
+              "name": "mtvi:contentType",
+              "checked": false
+            },
+            {
+              "name": "mtvi:created",
+              "checked": false
+            },
+            {
+              "name": "mtvi:id",
+              "checked": true
+            },
+            {
+              "name": "mtvi:lastModified",
+              "checked": false
+            },
+            {
+              "name": "mtvi:namespace",
+              "checked": false
+            },
+            {
+              "name": "mtvi:publishedTo",
+              "checked": false
+            },
+            {
+              "name": "mtvi:secondaryNamespaces",
+              "checked": false
+            },
+            {
+              "name": "Name",
+              "checked": true
+            },
+            {
+              "name": "mtvi:updated",
+              "checked": false
+            },
+            {
+              "name": "mtvi:urlKey",
+              "checked": false
+            },
+            {
+              "name": "PredicateName",
+              "checked": false
+            }
+          ],
+          "references": [],
+          "checked": false,
+          "expanded": true,
+          "contentType": "Standard:DistPolicies"
+        },
+        {
+          "name": "ImagesWithCaptions",
+          "fields": [
+            {
+              "name": "mtvi:id",
+              "checked": false
+            },
+            {
+              "name": "TypeName",
+              "checked": false
+            },
+            {
+              "name": "mtvi:urlKey",
+              "checked": false
+            }
+          ],
+          "references": [
+            {
+              "name": "Image",
+              "fields": [
+                {
+                  "name": "mtvi:id",
+                  "checked": true
+                },
+                {
+                  "name": "TypeName",
+                  "checked": false
+                },
+                {
+                  "name": "mtvi:urlKey",
+                  "checked": false
+                }
+              ],
+              "references": [],
+              "checked": false,
+              "expanded": true,
+              "contentType": "Standard:Image"
+            }
+          ],
+          "checked": false,
+          "expanded": true,
+          "contentType": "Standard:ImagesWithCaptions"
+        },
+        {
+          "name": "Ratings",
+          "fields": [
+            {
+              "name": "mtvi:id",
+              "checked": true
+            },
+            {
+              "name": "TypeName",
+              "checked": false
+            },
+            {
+              "name": "mtvi:urlKey",
+              "checked": false
+            }
+          ],
+          "references": [
+            {
+              "name": "Rating",
+              "fields": [
+                {
+                  "name": "mtvi:id",
+                  "checked": true
+                },
+                {
+                  "name": "mtvi:contentType",
+                  "checked": true
+                },
+                {
+                  "name": "Code",
+                  "checked": true
+                },
+                {
+                  "name": "Description",
+                  "checked": true
+                },
+                {
+                  "name": "mtvi:urlKey",
+                  "checked": false
+                }
+              ],
+              "references": [],
+              "checked": false,
+              "expanded": true,
+              "contentType": "Standard:RatingTVPG"
+            },
+            {
+              "name": "Descriptors",
+              "fields": [
+                {
+                  "name": "mtvi:id",
+                  "checked": true
+                },
+                {
+                  "name": "mtvi:contentType",
+                  "checked": true
+                },
+                {
+                  "name": "mtvi:urlKey",
+                  "checked": false
+                },
+                {
+                  "name": "Code",
+                  "checked": true
+                },
+                {
+                  "name": "Description",
+                  "checked": true
+                },
+                {
+                  "name": "PredicateName",
+                  "checked": false
+                }
+              ],
+              "references": [],
+              "checked": false,
+              "expanded": true,
+              "contentType": "Standard:RatingTVPGDescriptor"
+            }
+          ],
+          "checked": false,
+          "expanded": true,
+          "contentType": "Standard:Ratings"
+        }
+      ],
+      "checked": false,
+      "expanded": true,
+      "contentType": "Standard:Franchise"
+    }
+  }
+}

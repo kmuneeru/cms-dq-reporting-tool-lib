@@ -1,0 +1,12 @@
+casl:
+  config:
+    enableHttpSkipCacheParam: true
+    queryMinBackoffFor5xxStatusInMillis: 2000
+    queryMaxPeriodForRetryInMillis: 7000
+    queryRetryMaxAttemptsFor5xxStatus: 3
+    queryRetryAfterInMillis: 100
+server:
+  port: 8081
+crt:
+  invoker:
+    baseUrl: http://localhost:8080

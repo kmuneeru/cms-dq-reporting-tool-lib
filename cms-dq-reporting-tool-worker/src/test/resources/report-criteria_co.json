@@ -1,0 +1,136 @@
+{
+  "selectionCriteria": {
+    "filters": {
+      "server": "http://arc-epg-posting.use1.prod.aws.viacbs.tech",
+      "site": "cs-CZ.wonams.epgservices.paramountnetwork.cz",
+      "stage": "authoring",
+      "reportType": { "includeDraft": false, "applyDP": true },
+      "contentType": "Entertainment:ConfigurationObject",
+      "lastDateModified": 1658275200000,
+      "associatedTo": { "or": [], "and": [] },
+      "limit": 100
+    },
+    "availabilityFilter": {
+      "regions": ["AG", "AD"],
+      "platforms": [
+        "7438a51b-b194-46a6-960f-79ae6128b39f",
+        "a0bb860b-baef-46c5-8fa2-71c538ae8c65",
+        "0ea334d8-7627-4b15-b84f-f0819e8df23c",
+        "16db98c5-da6c-4e32-9c7e-e8a64e22bcbc"
+      ],
+      "orgChannels": [
+        "f156e60f-9eeb-470a-8df0-d21306ce2f52",
+        "cee71f4a-ec7d-4ccd-a10d-9bf6b7506d35"
+      ],
+      "orgSites": ["99362788-42e0-4aba-9b1c-68943c5657bd"],
+      "orgPartners": ["cf27a524-f893-48be-aced-e66b20fb0e39"]
+    },
+    "selectedFields": {
+      "name": "Entertainment:ConfigurationObject",
+      "contentType": "Entertainment:ConfigurationObject",
+      "checked": false,
+      "fields": [
+        { "name": "DeleteReason", "checked": true },
+        { "name": "ModificationReason", "checked": true },
+        { "name": "mtvi:id", "checked": true }
+      ],
+      "references": [
+        {
+          "name": "CMRs",
+          "contentType": "Entertainment:ConfigurationObjectCMR",
+          "checked": false,
+          "references": [
+            {
+              "name": "RegionBucket",
+              "contentType": "Standard:RegionBucket",
+              "checked": false,
+              "references": [],
+              "fields": [
+                { "name": "DeleteReason", "checked": true },
+                { "name": "ModificationReason", "checked": true },
+                { "name": "mtvi:id", "checked": true }
+              ]
+            }
+          ],
+          "fields": [
+            { "name": "mtvi:contentType", "checked": true },
+            { "name": "Language", "checked": true }
+          ]
+        },
+        {
+          "name": "Platform",
+          "contentType": "Standard:Platform",
+          "checked": false,
+          "references": [
+            {
+              "name": "AuthorizationType",
+              "contentType": "Standard:AuthorizationType",
+              "checked": false,
+              "references": [],
+              "fields": [
+                { "name": "DeleteReason", "checked": true },
+                { "name": "mtvi:id", "checked": true },
+                { "name": "mtvi:created", "checked": true }
+              ]
+            }
+          ],
+          "fields": [{ "name": "DeleteReason", "checked": true }]
+        }
+      ]
+    }
+  },
+  "ui": {
+    "criteria": {
+      "checkedFields": [
+        ["Entertainment:ConfigurationObject", "CMRs", "mtvi:contentType"],
+        ["Entertainment:ConfigurationObject", "CMRs", "Language"],
+        [
+          "Entertainment:ConfigurationObject",
+          "CMRs",
+          "RegionBucket",
+          "DeleteReason"
+        ],
+        [
+          "Entertainment:ConfigurationObject",
+          "CMRs",
+          "RegionBucket",
+          "ModificationReason"
+        ],
+        [
+          "Entertainment:ConfigurationObject",
+          "CMRs",
+          "RegionBucket",
+          "mtvi:id"
+        ],
+        ["Entertainment:ConfigurationObject", "Platform", "DeleteReason"],
+        [
+          "Entertainment:ConfigurationObject",
+          "Platform",
+          "AuthorizationType",
+          "DeleteReason"
+        ],
+        [
+          "Entertainment:ConfigurationObject",
+          "Platform",
+          "AuthorizationType",
+          "mtvi:id"
+        ],
+        [
+          "Entertainment:ConfigurationObject",
+          "Platform",
+          "AuthorizationType",
+          "mtvi:created"
+        ]
+      ],
+      "checkedNodes": [],
+      "expandedNodes": [
+        ["Entertainment:ConfigurationObject"],
+        ["Entertainment:ConfigurationObject", "CMRs"],
+        ["Entertainment:ConfigurationObject", "CMRs", "RegionBucket"],
+        ["Entertainment:ConfigurationObject", "Platform"],
+        ["Entertainment:ConfigurationObject", "Platform", "AuthorizationType"]
+      ],
+      "maxDepth": 2
+    }
+  }
+}
